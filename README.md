@@ -60,6 +60,20 @@ Copy `.env.example` to `.env` and adjust as needed. All variables have sensible 
 
 ---
 
+## API Docs (Swagger UI)
+
+The interactive API documentation is available at:
+
+```
+http://localhost:3000/docs
+```
+
+It is generated automatically from the code using **Swagger / OpenAPI 3** and lets you explore all endpoints, inspect request/response schemas, and try out requests directly in the browser — no Postman required.
+
+> The `/docs` path is intentionally separate from the `/api` prefix so that the UI is never accidentally caught by any API-level middleware.
+
+---
+
 ## API Reference
 
 ### `POST /api/images` — Upload an image
